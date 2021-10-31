@@ -1,7 +1,5 @@
 import React, {useState} from "react"
 import "./App.css"
-
-
 import SeatMatrix from "./components/SeatMatrix"
 import  axios from 'axios';
 
