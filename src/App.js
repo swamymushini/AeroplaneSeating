@@ -45,7 +45,7 @@ const App = () => {
 			"totPassengers" : passCnt
 			}
 			console.log(ret);
-		axios.post("http://localhost:8080/getPassengerArrangement",ret,headers)
+		axios.post("http://seating-env.eba-ssqdfivk.us-east-2.elasticbeanstalk.com/",ret,headers)
 		  .then(res => {
 			  if(res.data!=null){   
 			setarrangement(res.data)}
